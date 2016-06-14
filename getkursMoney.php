@@ -38,15 +38,10 @@ $data = str_replace("Update Terakhir\r\n", "Update Terakhir", $data);
 preg_match("|Update Terakhir(.*)|i", $data, $hasil);
 $update_terakhir = trim($hasil[1]);
 echo $update_terakhir;
-//header("Content-Type:   application/vnd.ms-excel; charset=utf-8");
-//header("Content-Disposition: attachment;Filename=hasil_sounding.xls");
-//application/vnd.openxmlformats-officedocument.spreadsheetml.sheet
-//header('Content-Type: text/csv; charset=utf-8');
-//header('Content-Disposition: attachment; filename=data.csv');	
 
-echo '			<table border="1">';
-	//echo $a=trim(strip_tags($pecah2[0]));
-//print_r ($pecah_ref2[0]);
+
+echo '<table border="1">';
+
 print_r ($pecah2[0]);	
 
 $link = $pecah2[0];
