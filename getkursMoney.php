@@ -1,10 +1,10 @@
 
 <?php 
 /**
-* Curl Website Bank di Indonesia
+* get Kurs dari Website Bank di Indonesia
 *
 * @author wawan kurniawan
-* @email : wawan.kurniawan@dovechem.co.id
+* @email : troey11@gmail.com
 
 *
 */
